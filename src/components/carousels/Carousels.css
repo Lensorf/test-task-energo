@@ -1,0 +1,56 @@
+.slick-list {
+    border-radius: 32px;
+}
+
+.kotik1 {
+    border-radius: 32px;
+    height: calc(160px + (320 - 160) * ((100vw - 320px) / (1600 - 320)));
+    background-image: url(/public/Котик1.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.kotik2 {
+    border-radius: 32px;
+    height: calc(160px + (320 - 160) * ((100vw - 320px) / (1600 - 320)));
+    background-image: url(/public/Котик2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.kotik3 {
+    border-radius: 32px;
+    height: calc(160px + (320 - 160) * ((100vw - 320px) / (1600 - 320)));
+    background-image: url(/public/Котик3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.kotik4 {
+    border-radius: 32px;
+    height: calc(160px + (320 - 160) * ((100vw - 320px) / (1600 - 320)));
+    background-image: url(/public/Котик4.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

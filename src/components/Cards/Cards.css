@@ -1,0 +1,39 @@
+.cardsPageBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Cards {
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardsImg {
+    display: block;
+    height: calc(160px + (320 - 160) * ((100vw - 320px) / (1600 - 320)));
+    background-image: url(/public/Котик1.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.ant-card-head-title {
+    text-align: center;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.textApple {
+    text-align: center;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
+}

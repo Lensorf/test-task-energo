@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: calc(24px + (32 - 24) * ((100vw - 320px) / (1600 - 320)));;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1600 - 320)));;
+}
